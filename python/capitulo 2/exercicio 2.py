@@ -2,8 +2,8 @@ precoCapa = 24.95
 descontoLivraria = precoCapa * 0.40
 precoCapaLivraria = precoCapa - descontoLivraria
 
-freteRestanteExemplar = 3.00
-freteRestantesExemplares = 0.75
+fretePrimeiroExemplar = 3.00
+freteRestanteExemplar = 0.75
 
 custoAtacadoPrimeiroExemplar = precoCapaLivraria + freteRestanteExemplar
 custoAtacado = custoAtacadoPrimeiroExemplar + ((precoCapaLivraria + freteRestanteExemplar) * 59)
