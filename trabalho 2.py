@@ -11,8 +11,7 @@ soma = somadosDois(n1, n2)
 subtracao = subtracaodosDois(n1, n2)
 multiplicacao = multiplicacaodosDois(n1, n2)
 divisao = divisaodosDois(n1, n2)
-
-
+bv
 print("O resultado da soma é:", soma)
 print("O resultado da subtração é:", subtracao)
 print("O resultado da multiplicação é:", multiplicacao)
