@@ -1,18 +1,15 @@
-def numeromaior(v1, v2, v3):
-    if(v1, > v2):
-        if(v1 > v3):
-        print('esse', v1 , 'é o maior numero')
+def maiorNumero(numero1, numero2, numero3):
+    if (numero1 > numero2):
+        if(numero1 > numero3):
+        print(f"o primeiro numero é o maior numero.")
 
-        if(v2 > v1):
-            if (v2 > v3):
-                print('esse' v2, "é o maior")
+    elif (numero2 > numero3):
+        print(f"o segundo numero é o maior numero.")
+    else:
+        print("o terceiro numero é o maior numero")
 
-    if (3v > v1):
-        if (3v > v2):
-    print('esse', v3 ,'é maior')
+    numero1 = int(input("digite o primeiro numero"))
+    numero2 = int(input("digite o segundo numero"))
+    numero3 = int(input("digite o terceiro numero"))
 
-    v1 = int(input('insira um valor:'))
-    v2 = int(input('insira um valor:'))
-    v3 = int(input('insira um valor:'))
-
-    numeromaior(v1, v2. v3)
+    maiorNumero(numero1, numero2, numero3)
